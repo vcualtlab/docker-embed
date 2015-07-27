@@ -8,7 +8,7 @@ hooks:
         cmd:
           - mkdir -p plugins
           - git clone https://github.com/discourse/docker_manager.git
-          - git clone https://github.com/timmmmyboy/docker-embed.git
+          - git clone https://github.com/vcualtlab/docker-embed
 ```
 
 This plugin will add the appropriate headers to allow your Discourse install to be embedded within another site on a different domain.
