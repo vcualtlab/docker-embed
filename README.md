@@ -11,4 +11,4 @@ hooks:
           - git clone https://github.com/vcualtlab/docker-embed
 ```
 
-This plugin will add the appropriate headers to allow your Discourse install to be embedded within another site on a different domain.
+This plugin will add the appropriate headers to allow your Discourse install to be embedded within another site on a different domain and for that domain to access JSON files. You'll want to change the domain to your domain or use * to allow all domains access.
